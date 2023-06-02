@@ -53,6 +53,21 @@
         }
     }
 
+       class User
+       {
+        int Id { get; set; }
+        public string Name { get; set; }
+
+        public static List<string> product = new List<string>();
+
+        public User(int id , string name)
+        {
+            Id = id;
+            Name = name;
+        }
+
+       }
+
     class Product
     {
         public int Id { get; set; }
